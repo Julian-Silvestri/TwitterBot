@@ -38,13 +38,13 @@ tweets = ['This is the life.',
     'I wish to speak to your customer service manager',
     'This service is abysmal, where is your manager']
 #Variables for each required KEY, secret and token
-consumer_key = "UUaqqkJXKipFR6Bs6RPJBknRd"
+consumer_key = "#"
 
-consumer_secret = "CJiKURvILmwaRuVGsGkiP0jIFrQh3zCKZDRyYWsS3snxyxJRBq"
+consumer_secret = "#"
 
-access_token = "872171968304480256-8HestnuUnQYqQBPnPT7AjSm3JVYgGBP"
+access_token = "#-#"
 
-access_token_secret = "jdXK4Sy0E9wVXxMLjDIdMm2hqmyVeOV8fH4iggKlxeV5M"
+access_token_secret = "#"
 
 #Set up OAuth and integrate with API
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -78,7 +78,7 @@ def tweeting():
     tweeting()
 
 
-start_stream = myStream.filter(track=['Cisco'],async=True)
+start_stream = myStream.filter(track=['Trump'],async=True)
 
 
 print(str(start_stream).translate(non_bmp_map))
